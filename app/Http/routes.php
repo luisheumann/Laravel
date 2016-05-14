@@ -18,3 +18,4 @@ Route::get('/', function () {
 
 
 Route::get('transportes', 'TransportController@index');
+Route::get('modelos', 'TransportController@modelos');

@@ -20,6 +20,16 @@ class TransportController extends Controller
 		$Modelos = Modelo::first();
 	 	return view('transportes.index', ['Transports' => $Transports, 'Modelos' => $Modelos]);
 	}
+    
+    
+     public function modelos()
+	{
+		
+		$Modelos = Modelo::get();
+	 	return view('transportes.modelos', ['Modelos' => $Modelos]);
+	}
+
+    
 
 
 

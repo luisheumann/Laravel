@@ -25,6 +25,11 @@
 <body>
 
       @section('sidebar')
+<ol class="breadcrumb">
+  <li><a href="#">Home</a></li>
+  <li><a href="/transportes">Transporte</a></li>
+    <li><a href="/modelos">Modelos</a></li>
+</ol>
 
         @show
 

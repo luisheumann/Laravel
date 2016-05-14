@@ -6,7 +6,8 @@
 @section('sidebar')
     @parent
 
-    <p>Menu - inicio - configuracion - etc</p>
+
+
 @stop
 
 
