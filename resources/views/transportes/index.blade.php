@@ -13,7 +13,8 @@
 
 
 
-
+<b>USUARIO:</b> {{$Transports->usuario->name}}
+<br>
 <b>TIPO:</b> {{$Transports->tipotrasporte->tipo}}
 <br>
 <b>MARCA:</b> {{$Transports->marca->marcatipo->tipo}}
