@@ -11,8 +11,6 @@
 @stop
 
 
-
-
 <b>USUARIO:</b> {{$Transports->usuario->name}}
 <br>
 <b>TIPO:</b> {{$Transports->tipotrasporte->tipo}}
@@ -23,3 +21,11 @@
 
 
  @stop
+
+        <div class="container">
+          ...
+        </div>
+        <div class="container">
+
+        </div>
+

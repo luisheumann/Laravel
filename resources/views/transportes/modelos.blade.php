@@ -1,10 +1,10 @@
 @extends('layouts.frontend')
 
 @section('title', 'Esta pagina es la de transporte')
-@section('content')
+        @section('content')
 
 @section('sidebar')
-    @parent
+@parent
 
 
 
@@ -14,7 +14,7 @@
 
 
 @foreach ($Modelos as $Modelo)
-    <p>{{ $Modelo->tipo }}</p>
+<p>{{ $Modelo->tipo }}</p>
 @endforeach
 
- @stop
+@foreach ($var as $value) @endforeach @stop
